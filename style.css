@@ -6,6 +6,7 @@
 
 body{
 	font-family: 'Poppins', sans-serif;
+	background: url("imagens/background 1.jpg")no-repeat;
 }
 
 img{
@@ -28,13 +29,14 @@ img{
 .nav ul li a{
 	text-decoration: none;
 	text-transform: uppercase;
+	color: #fff;
 }
 
 .nav ul li::after{
 	content: '';
 	height: 2px;
 	width: 0%;
-	background: #ff0157;
+	background: #19a1ad;
 	position: absolute;
 	left: 0;
 	bottom: -10px;
@@ -127,14 +129,14 @@ h3{
 .tec1 ul li{
 	list-style: none;
 	text-align: left;
-	padding-top: 15px;
+	padding-top: 13px;
 	padding-left: 20px;
-	color: #ff0157;
+	color: #19a1ad;
 	font-weight: bold;
 }
 
 .cor{
-	color: #19a1ad;
+	color: #ff0157;
 	font-weight: bold;
 }
 
@@ -145,9 +147,9 @@ h3{
 .tec2 ul li{
 	list-style: none;
 	text-align: right;
-	padding-top: 15px;
+	padding-top: 13px;
 	padding-left: 20px;
-	color: #ff0157;
+	color: #19a1ad;
 	font-weight: bold;
 }
 
